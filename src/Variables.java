@@ -5,11 +5,10 @@ public class Variables {
 
         byte a = 10;
         short b = 100;
-        int men = 32;
+        int men = 19;
         long d = 12366544L;
         float e = 4.5F;
         double f = 1254.54656;
-        boolean menIsAdult = men > 18;
         char bar = 35;
         //1.2 Переменные,Задача 2
         double boxerWeight1 = 78.2;
@@ -61,10 +60,9 @@ public class Variables {
         System.out.println("The difference between the annual income before and after the increase Masha = " + (newAnnualIncomeMasha - AnnualIncomeMasha));
         System.out.println("The difference between the annual income before and after the increase Denis = " + (newAnnualIncomeDenis - AnnualIncomeDenis));
         System.out.println("The difference between the annual income before and after the increase Kristina = " + (newAnnualIncomeKristina - AnnualIncomeKristina));
-        System.out.println("Masha now receives "+newSalaryMasha+" rubles. Annual income increased by "+(newAnnualIncomeMasha-AnnualIncomeMasha)+" rubles");
-        System.out.println("Denis now receives "+newSalaryDenis+" rubles. Annual income increased by "+(newAnnualIncomeDenis-AnnualIncomeDenis)+" rubles");
-        System.out.println("Kristina now receives "+newSalaryKristina+" rubles. Annual income increased by "+(newAnnualIncomeKristina-AnnualIncomeKristina)+" rubles");
-
+        System.out.println("Masha now receives " + newSalaryMasha + " rubles. Annual income increased by " + (newAnnualIncomeMasha - AnnualIncomeMasha) + " rubles");
+        System.out.println("Denis now receives " + newSalaryDenis + " rubles. Annual income increased by " + (newAnnualIncomeDenis - AnnualIncomeDenis) + " rubles");
+        System.out.println("Kristina now receives " + newSalaryKristina + " rubles. Annual income increased by " + (newAnnualIncomeKristina - AnnualIncomeKristina) + " rubles");
 
 
     }
